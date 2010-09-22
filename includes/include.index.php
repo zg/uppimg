@@ -69,7 +69,7 @@ if(isset($_FILES['image']))
 		$extension = explode('.',strtolower($_FILES['image']['name']));
 		@move_uploaded_file($_FILES['image']['tmp_name'],'uploaded/'.$ImageData->FileName.'.'.$extension[(count($extension) - 1)]);
 
-		header('Location: ?');
+		header('Location: uploaded/'.$ImageData->FileName.'.'.$extension[(count($extension) - 1)]);
 	}
 }
 ?>
