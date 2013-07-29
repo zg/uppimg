@@ -1,0 +1,1 @@
+UppIMG was an image hosting website (uppimg.com) that I ran a few years ago, and I've decided to release the core source code of the website on GitHub. The core of its technologies are PHP and MySQL. The core of the code is written in object-orientated PHP which connects to a relational MySQL database.
